@@ -1,4 +1,4 @@
-name: Build
+name: Sonar on PR
 on:
   pull_request:
     branches:
@@ -6,7 +6,7 @@ on:
       - master
 jobs:
   build:
-    name: Build
+    name: Sonar on PR
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v2
