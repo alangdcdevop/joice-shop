@@ -1,0 +1,1 @@
+’ 2cssXthr2src/app/search-result/search-result.component.scss

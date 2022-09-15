@@ -1,0 +1,6 @@
+projectKey=juice-shop-test
+serverUrl=https://sonarq-service-alangdcdevop.cloud.okteto.net
+serverVersion=9.6.1.59531
+dashboardUrl=https://sonarq-service-alangdcdevop.cloud.okteto.net/dashboard?id=juice-shop-test
+ceTaskId=AYNCq3KCnYYALUe3mc1D
+ceTaskUrl=https://sonarq-service-alangdcdevop.cloud.okteto.net/api/ce/task?id=AYNCq3KCnYYALUe3mc1D

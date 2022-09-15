@@ -1,0 +1,1 @@
+ 2cssXhr&src/app/qr-code/qr-code.component.scss

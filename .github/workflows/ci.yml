@@ -1,9 +1,5 @@
 name: Build
 on:
-  push:
-    branches:
-      - master # or the name of your main branch
-      - develop
   pull_request:
     branches:
       - develop
@@ -14,37 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v2
+        - uses: actions/setup-node@v1
     # Install tools
-        - name: Get the output time
-          run: curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
-        - name: Get the output time
-          run: chmod +x ./kubectl
-        - name: Get the output time
-          run: sudo mv ./kubectl /usr/local/bin/kubectl
-        - name: Get the output time
-          run: curl https://get.okteto.com -sSfL | sh
-    # check all tools
-        - name: Get the output time
-          run: kubectl version --client
-        - name: Get the output time
-          run: docker --version
-    # Login to okteto and docker
-        - name: Get the output time
-          run: okteto login --token 5O6pAiSx21MjySILFXP8gPlK6ePjcd727HyKqKRxCyFOnbKN
-        - name: Get the output time
-          run: docker login -u nybbleacademy -p asdqwe123
-    # Docker (push to repo)
-        - name: Get the output time
-          run: docker build . -t nybbleacademy/juiceshop:latest
-        - name: Get the output time
-          run: docker push nybbleacademy/juiceshop:latest
-    # Config Kubectl with okteto cli
-        - name: Get the output time
-          run: okteto namespace alangdcdevop
-        - name: Get the output time
-          run: okteto kubeconfig
-        - name: Get the output time
-          run: kubectl get pods
-    # Update version in cluster
-        - name: Get the output time
-          run: cd k8s && kubectl apply -f deployment.yml
+        - name: Run Sonar
+          run: cd frontend && npm run sonar          

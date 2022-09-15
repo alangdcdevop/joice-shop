@@ -1,0 +1,1 @@
+v 2cssXGhr6src/app/product-details/product-details.component.scss

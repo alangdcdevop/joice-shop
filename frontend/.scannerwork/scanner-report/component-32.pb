@@ -1,0 +1,1 @@
+  2webX$hrDsrc/app/challenge-status-badge/challenge-status-badge.component.html
