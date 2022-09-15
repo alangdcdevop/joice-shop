@@ -16,6 +16,6 @@ jobs:
             node-version: '12.x'
 # Install tools
         - name: Run Sonar
-          run: npm install
+          run: cd frontend && npm install
         - name: Run Sonar
           run: cd frontend && npm run sonar          
