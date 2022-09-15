@@ -13,4 +13,6 @@ jobs:
         - uses: actions/setup-node@v1
     # Install tools
         - name: Run Sonar
+          run: npm install
+        - name: Run Sonar
           run: cd frontend && npm run sonar          
