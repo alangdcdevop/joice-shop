@@ -1,0 +1,1 @@
+Þ 2tsX+hr1src/hacking-instructor/challenges/bonusPayload.ts

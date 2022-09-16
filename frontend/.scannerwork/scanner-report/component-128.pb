@@ -1,0 +1,1 @@
+€ 2tsX!hr$src/app/qr-code/qr-code.component.ts

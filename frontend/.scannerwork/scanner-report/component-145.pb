@@ -1,0 +1,1 @@
+‘ 2webXShr2src/app/search-result/search-result.component.html

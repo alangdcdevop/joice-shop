@@ -1,0 +1,1 @@
+! 2cssXhrDsrc/app/challenge-status-badge/challenge-status-badge.component.scss

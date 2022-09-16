@@ -1,0 +1,1 @@
+› (2tsX2hr)src/app/qr-code/qr-code.component.spec.ts

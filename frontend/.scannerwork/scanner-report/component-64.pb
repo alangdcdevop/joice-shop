@@ -1,0 +1,1 @@
+@ 2tsX=hr,src/app/deluxe-user/deluxe-user.component.ts

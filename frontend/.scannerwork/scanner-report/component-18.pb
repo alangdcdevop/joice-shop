@@ -1,0 +1,1 @@
+ 2cssXuhr4src/app/administration/administration.component.scss
